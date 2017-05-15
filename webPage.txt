@@ -30,6 +30,7 @@ pre.prettyprint.tryit {min-height:37px; background: #eee url(/python/images/try-
 div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #fdbf00 url(/images/pattern.png) repeat center center !important;}\r
 .sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #fdbf00 !important;}\r
 .submenu-item{ border-bottom: 2px solid #fdbf00 !important; border-top: 2px solid #fdbf00 !important }\r
+.ace_scroller{overflow: auto!important;}\r
 </style>\r
 <script>\r
 $(document).ready(function() {\r

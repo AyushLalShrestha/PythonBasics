@@ -6,7 +6,7 @@ conn = request.urlopen(url)
 w_page = conn.read()
 data = json.loads(w_page)
 
-print(data)
+#print(data)
 
 for customer in data['records']:
     print("Customer Name: " + customer["Name"])

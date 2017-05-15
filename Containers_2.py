@@ -11,5 +11,8 @@ personList = [person1, person2]
 personList.append({"name": "Astha", "address": "Kupondole", "contact": 567657, "job": "Microbiologist"})
 personList.append({"name": "Anita", "address": "Jhamsikhel", "contact": 527657, "job": "Housewife"})
 
-for person in personList:
-    print(person["name"] + " " + str(person["contact"]) + " " + person["job"])
+#for person in personList:
+    #print(person["name"] + " " + str(person["contact"]) + " " + person["job"])
+   
+for key in person1:
+    print(str(key) + " == " + str(person1[key]) )
