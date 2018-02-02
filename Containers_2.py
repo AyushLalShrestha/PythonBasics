@@ -16,3 +16,6 @@ personList.append({"name": "Anita", "address": "Jhamsikhel", "contact": 527657, 
    
 for key in person1:
     print(str(key) + " == " + str(person1[key]) )
+
+print(list(person1.keys()))
+print(list(person1.values()))
