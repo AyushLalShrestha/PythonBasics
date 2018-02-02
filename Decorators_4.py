@@ -5,6 +5,7 @@ def barking(cls):
         func = getattr(cls, methode) # cls.__dict__[name]
         def woofer(*args, **kwargs):
             print("Woof Woof !!")
+            #print(methode)
             return func(*args, **kwargs)
         setattr(cls, methode, woofer) # redefines 'methode' method of cls as Woofer
     return cls
@@ -20,6 +21,11 @@ class Animal():
 
 
 doggy = Animal("Snoie");
-print(dir(doggy));
 doggy.walk();
 doggy.shout();
+for methode in dir(doggy): # cls.__dict__
+        if methode.startswith("__"):
+            continue
+        print(methode + " is not a Magic Method !!")
+        
+
