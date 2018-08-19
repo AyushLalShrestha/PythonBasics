@@ -13,7 +13,7 @@ web_soup = BeautifulSoup(web_r.text, 'html.parser')
 
 print(web_soup.findAll("img"))
 
-#<img src=''/>
+#<img java-sockets=''/>
 
 
 driver = webdriver.Firefox()
@@ -27,7 +27,7 @@ while iterations < 10:
     print(len(sel_soup.findAll("img")))
     images = []
     for i in sel_soup.findAll("img"):
-        src = i["src"]
+        src = i["java-sockets"]
         images.append(src)
     print(images)
     current_path = os.getcwd()
