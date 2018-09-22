@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3322f29b-655d-420b-b7d3-10149fa172b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/simple_sockets/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sockets/java-sockets/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sockets/java-sockets/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sockets/java-sockets/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sockets/java-sockets/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sockets/java-sockets/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sockets/java-sockets/com/als/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_days_of_python/Day 25/js_scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/30_days_of_python/Day 25/js_scrape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonWriting/JsonReaderProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonWriting/JsonReaderProgram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesAndObjects_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesAndObjects_static_class_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingPrograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestingPrograms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_sockets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_sockets/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urllib1st.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib1st.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,12 +19,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python1st$ipywidgets1st.coverage" NAME="ipywidgets1st Coverage Results" MODIFIED="1489494372017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python2nd" />
+    <SUITE FILE_PATH="coverage/PythonBasics$simple_regex.coverage" NAME="simple_regex Coverage Results" MODIFIED="1537440369164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial4 - Regular Expressions" />
     <SUITE FILE_PATH="coverage/Python1st$BinaryFH.coverage" NAME="BinaryFH Coverage Results" MODIFIED="1487481750442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$cheyps.coverage" NAME="cheyps Coverage Results" MODIFIED="1487683297062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$DbFirst.coverage" NAME="DbFirst Coverage Results" MODIFIED="1487683840717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$FileHandling.coverage" NAME="FileHandling Coverage Results" MODIFIED="1487428327513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$PythonFirst.coverage" NAME="PythonFirst Coverage Results" MODIFIED="1487214418941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$classesTest.coverage" NAME="classesTest Coverage Results" MODIFIED="1487428389233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasics$ping_pong_subprocess.coverage" NAME="ping-pong-subprocess Coverage Results" MODIFIED="1537538897262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$LoopTest.coverage" NAME="LoopTest Coverage Results" MODIFIED="1487261965868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$importModule.coverage" NAME="importModule Coverage Results" MODIFIED="1487425052626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$pythonTest.coverage" NAME="pythonTest Coverage Results" MODIFIED="1487494028759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -35,6 +34,7 @@
     <SUITE FILE_PATH="coverage/Python1st$urllibJSON.coverage" NAME="urllibJSON Coverage Results" MODIFIED="1489756954167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$urllib1st.coverage" NAME="urllib1st Coverage Results" MODIFIED="1487683773550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python1st$TestPython.coverage" NAME="TestPython Coverage Results" MODIFIED="1487305697214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasics$ClassesAndObjects_2.coverage" NAME="ClassesAndObjects_2 Coverage Results" MODIFIED="1537584273761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -52,51 +52,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JsonReaderProgram.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsonWriting/JsonReaderProgram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="code.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial6 - Networking/code.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="53" selection-start-line="33" selection-end-line="53" />
+            <state relative-caret-position="216">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server-client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zeroMQing/server-client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="116" lean-forward="true" selection-start-line="22" selection-end-line="22" selection-end-column="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="push-pull.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zeroMQing/push-pull.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#14#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsonWriting/my_data.json">
+      <file leaf-file-name="ifElse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ifElse.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="file1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file1.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="NetHandling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetHandling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Magic_Methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Magic_Methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassesAndObjects_static_class_methods.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClassesAndObjects_static_class_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -130,7 +129,6 @@
         <option value="$PROJECT_DIR$/pythonTest.py" />
         <option value="$PROJECT_DIR$/FileHandling.py" />
         <option value="$PROJECT_DIR$/cheyps.py" />
-        <option value="$PROJECT_DIR$/urllib1st.py" />
         <option value="$PROJECT_DIR$/../Python2nd/ipywidgets1st.py" />
         <option value="$PROJECT_DIR$/urllibJSON.py" />
         <option value="$PROJECT_DIR$/Decorators2.py" />
@@ -152,6 +150,12 @@
         <option value="$PROJECT_DIR$/zeroMQing/server-client.py" />
         <option value="$PROJECT_DIR$/zeroMQing/publish-subscribe.py" />
         <option value="$PROJECT_DIR$/zeroMQing/push-pull.py" />
+        <option value="$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial4 - Regular Expressions/simple_regex.py" />
+        <option value="$PROJECT_DIR$/ping-pong-subprocess.py" />
+        <option value="$PROJECT_DIR$/urllib1st.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ClassesAndObjects_2.py" />
+        <option value="$PROJECT_DIR$/ClassesAndObjects_static_class_methods.py" />
       </list>
     </option>
   </component>
@@ -184,16 +188,6 @@
               <item name="PythonBasics" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonBasics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PythonBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_sockets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="zeroMQing" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -209,6 +203,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\PycharmProjects\Python1st" />
     </key>
@@ -225,59 +222,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simple_server">
-    <configuration name="Decorators_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ClassesAndObjects_2">
+    <configuration name="ClassesAndObjects_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python1st" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decorators_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassesAndObjects_static_class_methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Decorators_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ping-pong-subprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python1st" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decorators_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="TestingPrograms" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python1st" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestingPrograms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,6 +275,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonBasics_2/practice_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="simple_regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python1st" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial4 - Regular Expressions" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial4 - Regular Expressions/simple_regex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,19 +383,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.Decorators_2" />
-      <item itemvalue="Python.Decorators_4" />
-      <item itemvalue="Python.TestingPrograms" />
       <item itemvalue="Python.practice_1" />
       <item itemvalue="Python.simple_server" />
+      <item itemvalue="Python.simple_regex" />
+      <item itemvalue="Python.ping-pong-subprocess" />
+      <item itemvalue="Python.ClassesAndObjects_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ClassesAndObjects_2" />
+        <item itemvalue="Python.ping-pong-subprocess" />
+        <item itemvalue="Python.simple_regex" />
         <item itemvalue="Python.simple_server" />
         <item itemvalue="Python.practice_1" />
-        <item itemvalue="Python.TestingPrograms" />
-        <item itemvalue="Python.Decorators_4" />
-        <item itemvalue="Python.Decorators_2" />
       </list>
     </recent_temporary>
   </component>
@@ -432,24 +429,24 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50293684" side_tool="true" weight="0.296" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3296" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.10466439" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18194444" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3287827" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49706313" weight="0.32992035" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4357224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18194444" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287827" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985294" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49706313" weight="0.35588235" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985294" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287827" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,38 +473,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/copy2.jpg" />
-    <entry file="file://$PROJECT_DIR$/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ifElse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/urllib/request.py" />
-    <entry file="file://$PROJECT_DIR$/buckyRoberts.jpg" />
-    <entry file="file://$PROJECT_DIR$/copy.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspointPython.txt" />
     <entry file="file://$PROJECT_DIR$/webPage.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib1st.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -525,21 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webPage_2.txt" />
     <entry file="file://$PROJECT_DIR$/Containers.py" />
-    <entry file="file://$PROJECT_DIR$/NetHandling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classesTest.py" />
-    <entry file="file://$PROJECT_DIR$/urllibJSON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -559,25 +514,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iterators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassesAndObjects_1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Decorators_1.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magic_Methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileHandling.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -590,23 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Containers_1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassesAndObjects_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestingPrograms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -640,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsonWriting/JsonReaderProgram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="180">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -652,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="113" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="113" />
-          <folding>
-            <element signature="e#201#211#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,24 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial6 - Networking/code.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="53" selection-start-line="33" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zeroMQing/publish-subscribe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zeroMQing/server-client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="116" lean-forward="true" selection-start-line="22" selection-end-line="22" selection-end-column="116" />
         </state>
       </provider>
     </entry>
@@ -707,6 +614,105 @@
           <folding>
             <element signature="e#14#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zeroMQing/server-client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="116" lean-forward="true" selection-start-line="22" selection-end-line="22" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Containers_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial4 - Regular Expressions/code.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial6 - Networking/code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3Advanced_draps_tv/Tutorial4 - Regular Expressions/simple_regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urllib1st.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/TestingPrograms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urllibJSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ifElse.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetHandling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magic_Methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesAndObjects_static_class_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
