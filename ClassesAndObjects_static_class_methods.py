@@ -20,6 +20,9 @@ class InstanceCounter(object):
     def __private_method(self):
         return self.name
 
+    def some_instance_method(self, value):
+        return self.filterint(value)
+
 instance1 = InstanceCounter("Ayush", 22)
 instance2 = InstanceCounter("Astha", 26)
 # print(InstanceCounter.count)
@@ -29,6 +32,8 @@ print(InstanceCounter.count)
 # print("Global Instance Count: " + str(InstanceCounter.count))
 # print("Global Instance Count from Decorated Class method : " + str(InstanceCounter.showCounter()))
 print dir(instance3)
+
+print instance2.some_instance_method(22)
 
 
 
