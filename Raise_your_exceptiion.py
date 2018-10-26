@@ -3,16 +3,15 @@
 class Ayusherror(Exception):
 
 	def __init__(self, message, *args):
-	    self.message = message
-	    
-	    super(Ayusherror, self).__init__(message, *args) 
+        self.message = message
+        super(Ayusherror, self).__init__(message, *args)
 
 def some_method():
     try:
         execute_method()
 
     except Ayusherror as ve:
-    	print str(ve)
+        print str(ve)
 
     
 def execute_method():

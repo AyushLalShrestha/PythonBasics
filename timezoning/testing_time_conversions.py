@@ -12,10 +12,10 @@ def main():
         time_UTC = tz_utc.localize(datetime(2002, 10, 27, 18, 26, 23))
         time_diff = int(((time_UTC - time_User).total_seconds()) / 60)
         time_diff = time_diff - time_diff % 30
-        time_diff = -30
+        time_diff = 30
 
         jsondata_value = {
-            'value': [{'minute': i, 'expected': '%s-E' % i} for i in range(0, 1440, 30)]
+            'value': [{'minute': i+2, 'expected': '%s-E' % i} for i in range(0, 1440, 30)]
         }
 
         per_halfhour_data = jsondata_value['value']
@@ -32,7 +32,8 @@ def main():
                 per_halfhour_value['minute'] = new_time
                 print per_halfhour_value
     except Exception as ex:
-        print(str(ex))
+        pass
+        # print(str(ex))
 
 
 if __name__=='__main__':

@@ -18,14 +18,30 @@
 #             ex = 1
 #
 #     number += 1
+import gevent
+import time
 
+class Person():
+    def __init__(self):
+        self.number = 0
+        self.count = 0
+
+    def return_number_if_count_5(self):
+        print "In method"
+        time.sleep(5)
+        return 1
 
 def main():
+    person = Person()
+    response = gevent.with_timeout(3, person.return_number_if_count_5, timeout_value=3)
+    if response>0:
+        print "Some result came out"
+    else:
+        print "No results :("
 
-    i = True
+    print "End of Main"
 
-    if i is True:
-        print "Yayy"
+
 if __name__=="__main__":
     main()
 
