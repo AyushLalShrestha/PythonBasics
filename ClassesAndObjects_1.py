@@ -1,8 +1,9 @@
 import sys
+from abc import abstractmethod
 
-from builtins import print
+# from builtins import print
 
-class PartOfUniverse():
+class PartOfUniverse(object):
     def __init__(self, universe_name):
         print("This is the %s %s init method" %("PartOfUniverse" , "Super Class") )
         self.universe_name = universe_name
@@ -10,9 +11,9 @@ class PartOfUniverse():
     def _name_of_universe(self):
         print("The animal is part of the Universe: " + str(self.universe_name) )
 
-class Animal():
+class Animal(object):
     def __init__(self, name, fav_food, type):
-        print("This is the %s %s init method" %("Animal" , "Super Class") )
+        print("This is the %s %s init method" %("Animal", "Super Class") )
         self.name = name
         self.fav_food = fav_food
         self.type = type
@@ -26,7 +27,8 @@ class Animal():
 class Dog(Animal, PartOfUniverse):
     def __init__(self, name, fav_food, breed, universe_name):
         super(Dog, self).__init__(name, fav_food, "Dog")
-        PartOfUniverse.__init__(self, universe_name)
+        # PartOfUniverse.__init__(self, universe_name)
+        super(Dog, self).__init__(name, universe_name)
         #super(Dog, self).__init__(universe_name)
         # Animal.__init__(self, name, fav_food, "Dog")
         # super().__init__(name, fav_food, "Dog")
