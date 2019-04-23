@@ -14,7 +14,7 @@ def producer():
 producer()
 
 
-# ------------------------------------------------ consumer.py ------------------------------------------------
+# ------------------------------------------------ middleware consumer.py ------------------------------------------------
 import time
 import zmq
 import random
@@ -57,7 +57,7 @@ def result_collector():
         else:
             collecter_data[result['consumer']] = 1
         if x == 999:
-            pprint.pprint(collecter_data)
+            pprint.print(collecter_data)
 
 result_collector()
 
@@ -68,12 +68,12 @@ run the commands:
     python consumer.py
     python consumer.py
     python producer.py
-    
+
 
 Expected Output:
-    {   
+    {
     3362: 233,
     9312: 767
-    }    
+    }
 
 """
