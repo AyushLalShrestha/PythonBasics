@@ -16,24 +16,24 @@ def main():
    context = zmq.Context()
    receiver_socket = context.socket(zmq.PULL)
    receiver_socket.connect("tcp://127.0.0.1:5557")
-   
+
    publisher_socket = context.socket(zmq.PUSH)
    publisher_socket.connect("tcp://127.0.0.1:5558")
-   
+
    while True:
       json_message = result_collector(receiver_socket)
       if json_message.get('action') == 'login':
          json_message['vulnerabilty'] = 'HIGH'
       else:
          json_message['vulnerabilty'] = 'LOW'
-      
+
       message_sender(publisher_socket, json_message)
-      time.sleep(1)
+      time.sleep(10)
 
 if __name__=="__main__":
    main()
 
-   
-   
+
+
 
 
