@@ -8,7 +8,7 @@ def do_something(alert_name):
     print "Do something for alert: {}".format(alert_name)
 
 
-def scheduled_method(sched_obj, alert, wait_time):
+def scheduled_method(sched_obj, alert, wait_time, priority):
     do_something(alert)
     sched_obj.enter(wait_time, 0, scheduled_method, argument=(sched_obj, alert, wait_time ))
 
@@ -21,8 +21,8 @@ def main():
     time.sleep(5)
 
     alerts = ['alert_1', 'alert_2', 'alert_3']
-    for alert in alerts:
-        scheduled_method(sched_obj, alert, 4)
+    for i, alert in enumerate(alerts):
+        scheduled_method(sched_obj, alert, 4, i)
     sched_obj.run()
 
 

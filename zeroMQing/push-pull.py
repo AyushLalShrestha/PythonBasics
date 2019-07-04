@@ -1,6 +1,9 @@
 # ------------------------------------------------ producer.py ------------------------------------------------
+import pprint
+import random
 import time
 import zmq
+
 
 def producer():
     context = zmq.Context()
@@ -15,10 +18,6 @@ producer()
 
 
 # ------------------------------------------------ middleware consumer.py ------------------------------------------------
-import time
-import zmq
-import random
-
 def consumer():
     consumer_id = random.randrange(1, 10005)
     print "I am consumer #%s" % (consumer_id)
@@ -41,10 +40,6 @@ consumer()
 
 
 # ------------------------------------------------ result_collector.py ------------------------------------------------
-import time
-import zmq
-import pprint
-
 def result_collector():
     context = zmq.Context()
     results_receiver = context.socket(zmq.PULL)
@@ -53,11 +48,13 @@ def result_collector():
     for x in xrange(1000):
         result = results_receiver.recv_json()
         if collecter_data.has_key(result['consumer']):
-            collecter_data[result['consumer']] = collecter_data[result['consumer']] + 1
+            collecter_data[result['consumer']
+                           ] = collecter_data[result['consumer']] + 1
         else:
             collecter_data[result['consumer']] = 1
         if x == 999:
             pprint.print(collecter_data)
+
 
 result_collector()
 

@@ -1,17 +1,10 @@
 # monkey-patch
+import requests
+import re
+import sys
+import gevent.pool
 import gevent.monkey
 gevent.monkey.patch_all()
-
-import gevent.pool
-import sys
-import re
-import requests
-
-# Prepare a pool for 5 workers
-pool = gevent.pool.Pool(5)
-
-# Crawl tracker is back
-crawled = 0
 
 def crawler(u):
     '''A very simple pooled gevent web crawler'''
@@ -29,8 +22,17 @@ def crawler(u):
             crawled += 1
             pool.spawn(crawler, link)
 
+
+# Prepare a pool for 5 workers
+pool = gevent.pool.Pool(5)
+
+# Crawl tracker is back
+crawled = 0
+
 # Read the seed url from stdin
-pool.spawn(crawler, sys.argv[1])
+url = "https://www.reddit.com/"
+# pool.spawn(crawler, sys.argv[1])
+pool.spawn(crawler, url)
 
 # Wait for everything to complete
 pool.join()

@@ -1,12 +1,12 @@
 import ldap
 
 # Static configurations
-HOST = "10.45.1.99"
+HOST = "10.22.11.999"
 PORT = 389
-bind_dn = "CN=qa,CN=Users,DC=logpoint,DC=zitcom"
-pwd = "Changeme@123"
+bind_dn = "CN=qa,CN=Users,DC=als,DC=ntc"
+pwd = "Please@189765"
 auth_param = "sAMAccountName"
-user_base_dn = "DC=logpoint,DC=zitcom"
+user_base_dn = "DC=als,DC=ntc"
 
 # Create a connection to LDAP server
 ldap_conn = ldap.initialize("ldap://[%s]:%s" % (HOST, PORT))
@@ -19,9 +19,9 @@ user_filter = "{}={}".format(auth_param, username_in_userdn)
 
 # Search configurations
 query_base = user_base_dn
+search_filter = user_filter
 retrieve_attrs = None
 search_scope = ldap.SCOPE_SUBTREE
-search_filter = user_filter
 
 # Search the LDAP database
 msgid = ldap_conn.search_ext(
@@ -33,7 +33,7 @@ entities = list()
 for result in results:
     entity = dict()
     entity['dn'] = result[0]
-    if entity['dn'] is None:
+    if entity.get('dn') is None:
         continue
     for field, value in result[1].iteritems():
         entity.update({field: value})

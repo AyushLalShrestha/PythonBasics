@@ -4,20 +4,23 @@ import sched
 # self.sched = sched.scheduler(time.time, sleep_func)
 # self.sched.enter(delay_seconds, 0, action, args)
 
+
 def printing_name(name):
     print "Printing name: {}".format(name)
+
 
 def scheduled_method(sched_obj):
     sched_obj.enter(4, 1, printing_name, argument=("Ayush",))
     sched_obj.run()
     scheduled_method(sched_obj)
 
+
 def main():
     sched_obj = sched.scheduler(time.time, time.sleep)
     scheduled_method(sched_obj)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
 
 # import sched, time

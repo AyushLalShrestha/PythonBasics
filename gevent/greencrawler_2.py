@@ -36,10 +36,6 @@ def crawler():
 
 queue.put(sys.argv[1])
 
-# Read the seed url from stdin
-# for x in xrange(0, 5):
-#     pool.spawn(crawler)
-
 while not queue.empty() and not pool.free_count() == 5:
     gevent.sleep(0.1)
     for x in xrange(0, min(queue.qsize(), pool.free_count())):
