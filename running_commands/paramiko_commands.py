@@ -1,13 +1,13 @@
 # Running paramiko commands
 
-import paramiko 
+import paramiko
 
 ssh = paramiko.SSHClient()
 ssh.connect(server, username=username, password=password)
 ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command(cmd_to_execute)
 
-# If you're using SSH keys, first prepare the keyfile (id_rsa private key file) using EITHER: 
-k = paramiko.RSAKey.from_private_key_file(keyfilename) 
+# If you're using SSH keys, first prepare the keyfile (id_rsa private key file) using EITHER:
+k = paramiko.RSAKey.from_private_key_file(keyfilename)
 
 # or
 # k = paramiko.DSSKey.from_private_key_file(keyfilename)

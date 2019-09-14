@@ -2,14 +2,14 @@ class InstanceCounter(object):
     count = 0
 
     def __init__(self, name, val):
-        InstanceCounter.count += 1
+        # InstanceCounter.count += 1
         self.name = name
         self.val = self.filterint(val)
         # print self.__private_method()
 
     @classmethod   
     def showCounter(cls):
-        return(cls.count)    
+        return (cls.count)
 
     @staticmethod
     def filterint(value):
@@ -31,10 +31,10 @@ instance3 = InstanceCounter("Anita", "Not an Integer")
 print(InstanceCounter.count)
 # print("Global Instance Count: " + str(InstanceCounter.count))
 # print("Global Instance Count from Decorated Class method : " + str(InstanceCounter.showCounter()))
-print dir(instance3)
+# print dir(instance3)
 
 print instance2.some_instance_method(22)
-
+print instance1.count
 
 
 

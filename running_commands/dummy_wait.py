@@ -4,9 +4,9 @@ import sys
 import time
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     number = random.randint(0, 100)
-    if number%2 == 0:
+    if number % 2 == 0:
         # print "waiting for infinity"
         while True:
             time.sleep(10)
