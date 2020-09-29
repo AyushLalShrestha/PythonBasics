@@ -8,7 +8,7 @@ def main():
     parser.add_argument('-d', '--date')
     parser.add_argument('-c', '--color')
     namespace = parser.parse_args()
-    log.warning(namespace)
+    log.warning(namespace.color)
 
 
 if __name__ == "__main__":

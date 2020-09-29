@@ -22,7 +22,7 @@ def crawler():
         try:
             u = queue.get(timeout=1)
             response = requests.get(u)
-            print response.status_code, u
+            print(response.status_code)
 
             # Extract some links to follow
             for link in re.findall('<a href="(http.*?)"', response.content):

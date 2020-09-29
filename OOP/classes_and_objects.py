@@ -43,8 +43,8 @@ class Dog(Animal, PartOfUniverse):
 
 def main():
     snoie = Dog("snowie", "FihsChips", "JapaneseSpitz", "MilkyWay")
-    snoie._Dog__speak()
-    snoie._name_of_universe()
+    # snoie._Dog__speak()
+    # snoie._name_of_universe()
     #snoie.speak()
     #snoie.walk()
     #snoie.getNameBreed()

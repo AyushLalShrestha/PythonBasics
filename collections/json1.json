@@ -1,0 +1,26 @@
+{
+  "time_range": [
+    1601283060,
+    1601283660
+  ],
+  "orig_search_id": "b0685cbc73e51f3236b6236edeb9b6ae4e5b1581",
+  "success": true,
+  "final": true,
+  "totalPages": 1,
+  "estim_count": 28,
+  "query_type": "simple",
+  "rows": [
+    {
+      "name": "ayush",
+      "l_name": "shrestha",
+      "jobs": ["engineer", "manager"],
+      "other_info": ["83Kg", {"2019": 82, "2015": [92, 94]}]
+    },
+    {
+      "name": "anita",
+      "l_name": "shrestha"
+    }
+  ],
+  "complete": true,
+  "version": 107
+}
