@@ -60,11 +60,12 @@ def compare_json(fp1, fp2):
                 match_elements.append((i+1, j+1))
             else:
                 unmatch_count += 1
-    print(f"rows1:{len(rows_1)}, rows2:{len(rows_2)}")
-    print(f"Number of matches: {match_count}")
-    print(f"Number of unmatches: {unmatch_count}")
-    print(match_elements)
-    
+    print(f"Rows in 1st JSON: {len(rows_1)}")
+    print(f"Rows in 1st JSON: {len(rows_2)}")
+    print(f"Number of row-matches between two JSON: {match_count}")
+    print(f"Number of row-un-matches between two JSON: {unmatch_count}")
+    for i,j in match_elements:
+        print(f"1st JSON's row {i} == row {j} of 2nd JSON")
 
 
 if __name__ == '__main__':
