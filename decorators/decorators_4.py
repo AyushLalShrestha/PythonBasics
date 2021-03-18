@@ -20,9 +20,9 @@ class Animal():
         print(self.__name + " Animal is Walking !!")
 
 
-doggy = Animal("Snoie");
-doggy.walk();
-doggy.shout();
+doggy = Animal("Snoie")
+doggy.walk()
+doggy.shout()
 for methode in dir(doggy): # cls.__dict__
         if methode.startswith("__"):
             continue

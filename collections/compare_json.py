@@ -61,7 +61,7 @@ def compare_json(fp1, fp2):
             else:
                 unmatch_count += 1
     print(f"Rows in 1st JSON: {len(rows_1)}")
-    print(f"Rows in 1st JSON: {len(rows_2)}")
+    print(f"Rows in 2nd JSON: {len(rows_2)}")
     print(f"Number of row-matches between two JSON: {match_count}")
     print(f"Number of row-un-matches between two JSON: {unmatch_count}")
     for i,j in match_elements:
