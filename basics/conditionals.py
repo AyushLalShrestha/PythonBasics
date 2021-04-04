@@ -10,8 +10,7 @@ def ageCalc(age):
     else:
         print("You are a Child or an Old man :)")
 
-print("WELCOME")
-aze = eval(input("Enter age: "))
-ageCalc(aze)
+age = eval(input("Enter age: "))
+ageCalc(age)
 
 

@@ -1,3 +1,4 @@
+
 class InstanceCounter(object):
     count = 0
 
@@ -33,8 +34,8 @@ print(InstanceCounter.count)
 # print("Global Instance Count from Decorated Class method : " + str(InstanceCounter.showCounter()))
 # print dir(instance3)
 
-print instance2.some_instance_method(22)
-print instance1.count
+print(instance2.some_instance_method(22))
+print(instance1.count)
 
 
 

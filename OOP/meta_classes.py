@@ -62,7 +62,9 @@ inst = Example(10)
 # Will fail with an AttributeError
 #inst.unregister()
 
+inst_obj = inst + inst
 print("inst + inst = {}" .format(inst + inst))
+print(inst_obj.value)
 
 class Sibling(MyObject):
     pass
